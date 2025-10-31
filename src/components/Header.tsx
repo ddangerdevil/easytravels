@@ -29,7 +29,7 @@ export function Header({
               className="w-10 h-10"
             />
             <span className={`font-bold text-xl ${isScrolled ? 'text-blue-600' : 'text-white'}`}>
-              Easy Bookings
+              Easy Travels
             </span>
           </div>
           <nav className="hidden md:flex space-x-8">
