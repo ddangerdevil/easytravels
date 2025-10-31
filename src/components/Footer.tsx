@@ -13,7 +13,7 @@ export function Footer({
             alt="Easy Bookings Logo" 
             className="w-12 h-12"
           />
-          <span className="text-2xl font-bold">Easy Bookings</span>
+          <span className="text-2xl font-bold">Easy Travels</span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -28,7 +28,7 @@ export function Footer({
               <div className="flex items-center gap-3">
                 <MailIcon className="w-5 h-5 text-blue-400" />
                 <a href="mailto:contact@easybookings.us" className="hover:text-blue-400 transition-colors">
-                  contact@easybookings.us
+                  contact@easytravels.us
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -79,7 +79,7 @@ export function Footer({
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Easy Bookings. All rights reserved.</p>
+          <p>&copy; 2025 Easy Travels. All rights reserved.</p>
           <p className="text-sm mt-2">
             Professional flight booking service - Available 24/7
           </p>
