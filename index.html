@@ -4,24 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-<!-- Event snippet for Contact conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-17693474958/IOgfCLvY4LcbEI6B9PRB',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-
     
     <!-- Primary Meta Tags -->
     <title>Easy Travels - Book Cheap Flights by Phone | 24/7 Flight Booking Service</title>
@@ -152,10 +134,23 @@ function gtag_report_conversion(url) {
   gtag('config', 'AW-17693474958');
 </script>
 
-<!-- Event snippet for Contact (1) conversion page -->
+<!-- Event snippet for Contact (1) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-17693474958/Ws9HCKn9qLgbEI6B9PRB'});
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17693474958/Ws9HCKn9qLgbEI6B9PRB',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
+
 
     
   </head>
